@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import {FaUsers,FaLock,FaUser,FaEyeSlash,FaArrowRight,FaM} from 'react-icons/fa';
 import EmailIcon from '@mui/icons-material/Email';
 import UserAlreadyLogged from './UserAlreadyLogged';
+import LoginPageImg from '../assets/images/login.jpg'
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -27,7 +28,7 @@ export default function UserLoginSignup(props) {
                 <Grid item xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                   <Item data-aos="fade-right" data-aos-duration="400">
                   <div className="signInLogo">
-                              <img src="images/login.jpg" alt="" className="h-100 w-100"/>
+                              <img src={LoginPageImg} alt="" className="h-100 w-100"/>
                           </div>
                   </Item>
                 </Grid>

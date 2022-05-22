@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from "react-bootstrap/Carousel";
-import allPaintings from '../allPanting.json'
+import {allPaintings} from '../Database/AllPaintingsDB'
 
 export default function MainSlider() {
   return (

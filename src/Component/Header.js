@@ -7,7 +7,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import HomeIcon from '@mui/icons-material/Home';
-import {FaFacebook,FaInstagram,FaTwitter,FaYoutube} from 'react-icons/fa'
+import {FaFacebook,FaInstagram,FaTwitter,FaYoutube} from 'react-icons/fa';
+import SiteLogo from '../assets/images/painting-logo.png'
 const Header = () => {
   return (
     <>
@@ -26,7 +27,7 @@ const Header = () => {
           </div>
     <Navbar bg="light" expand="lg">
     <Container>
-      <Navbar.Brand><img src="/images/painting-logo.png"/></Navbar.Brand>
+      <Navbar.Brand><img src={SiteLogo}/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">

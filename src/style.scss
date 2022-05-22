@@ -236,10 +236,10 @@ a{
     .NewArrival{
         position: relative;
         padding: 2rem ;
-        background-image: url('../public/images/slider-bg.jpg');
+        background-image: url('./assets/images/slider-bg.jpg');
         background-size: 100% 100%;
         .ArtistImg{
-            background:url('../public/images/newArrival1.jpg');
+            background:url('./assets/images/newArrival1.jpg');
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-position: 0 0;
@@ -303,7 +303,7 @@ a{
     }
     .Hm_Exhibition{
         padding: 1rem 0rem;
-        background: url('../public/images/slider-bg.jpg');
+        background: url('./assets/images/slider-bg.jpg');
         background-size: 100% 100%;
         background-position: 0 0;
         background-repeat: no-repeat;
@@ -343,7 +343,7 @@ a{
         position: relative;
         height: 25rem;
         padding: 2rem;
-        background: url('../public/images/contact2.jpg');
+        background: url('./assets/images/contact2.jpg');
         background-size: 100% 100%;
         background-position: 0 0;
         background-repeat: no-repeat;

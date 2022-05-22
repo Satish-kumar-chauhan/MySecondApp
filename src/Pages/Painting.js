@@ -14,7 +14,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { useParams } from 'react-router-dom';
-import allPaintings from '../allPanting.json'
+import {allPaintings} from '../Database/AllPaintingsDB'
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,

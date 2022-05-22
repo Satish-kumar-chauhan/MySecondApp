@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-
+import artistImg from '../assets/images/userProfile.jpg'
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -22,7 +22,7 @@ export default function Artist({pHead}) {
       {/* <Item>4</Item> */}
     </Grid>
     <Grid item xs={12} sm={12} md={4} lg={4} xl={4} xxl={4} data-aos="fade-up" data-aos-duration="400">
-      <Item className='ArtistImg'><img src='./images/userProfile.jpg' className='h-100 w-100'/></Item>
+      <Item className='ArtistImg'><img src={artistImg} className='h-100 w-100'/></Item>
     </Grid>
     <Grid item xs={12} sm={12} md={4} lg={4} xl={4} xxl={4} data-aos="fade-up" data-aos-duration="400">
       {/* <Item>4</Item> */}

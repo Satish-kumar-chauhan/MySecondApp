@@ -2,6 +2,7 @@ import React from 'react';
 import OwlCarouselSlider from '../HOC_Component/OwlCarouselSlider';
 import {newArrival} from '../Database/Database';
 import Button from 'react-bootstrap/Button';
+import {Link} from 'react-router-dom'
 
 export default function SampleArt({pHead}) {
   return (
@@ -11,7 +12,7 @@ export default function SampleArt({pHead}) {
           <div className='py-2'>
         <OwlCarouselSlider itemData={newArrival} viewItem={5}/>
         </div>
-        <Button className='ViewAllItem'>View All Items</Button>
+        <Link className='ViewAllItem btn btn-primary' to='/painting'>View All Items</Link>
         </div>
       </div>
   )

@@ -1,3 +1,12 @@
+import exh1 from '../assets/images/Exhibition/Upcoming/exh1.jpg';
+import exh2 from '../assets/images/Exhibition/Upcoming/exh2.jpg';
+import exh3 from '../assets/images/Exhibition/Upcoming/exh3.jpg';
+import oil2 from '../assets/images/Oil_paint/oil2.jpg';
+import oil3 from '../assets/images/Oil_paint/oil3.jpg';
+import oil4 from '../assets/images/Oil_paint/oil4.jpg';
+import water1 from '../assets/images/Watercolor_paint/watercolor1.jpg';
+import water2 from '../assets/images/Watercolor_paint/watercolor2.jpg';
+
 export const data =  {
     paintingTypes:[
         {
@@ -25,235 +34,7 @@ export const data =  {
 export const exhibition =  [
     'Upcoming',
     'Current',
-    'Past'
-    ]
-export const allPaintings = [
-        {
-            id:'oilP_1',
-            name:"Oil Painting 1",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'oilP_2',
-            name:"Oil Painting 2",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (2).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'oilP_3',
-            name:"Oil Painting 3",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (3).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'oilP_4',
-            name:"Oil Painting 4",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (4).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'oilP_5',
-            name:"Oil Painting 5",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (5).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'oilP_6',
-            name:"Oil Painting 6",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (7).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'oilP_7',
-            name:"Oil Painting 7",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (8).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'oilP_8',
-            name:"Oil Painting 8",
-            price:10.50,
-            instock:50,
-            type:"oil",
-            imgSrc:"/images/Oil_paint/oilP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_1',
-            name:"Watercolor Painting 1",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_2',
-            name:"Watercolor Painting 2",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (2).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_3',
-            name:"Watercolor Painting 3",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (3).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_4',
-            name:"Watercolor Painting 4",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (4).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_5',
-            name:"Watercolor Painting 5",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (5).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_6',
-            name:"Watercolor Painting 6",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (6).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_7',
-            name:"Watercolor Painting 7",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (7).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'waterP_8',
-            name:"Watercolor Painting 8",
-            price:10.50,
-            instock:50,
-            type:"water",
-            imgSrc:"/images/Watercolor_paint/waterP (8).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_1',
-            name:"Pastel Painting 1",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_2',
-            name:"Pastel Painting 2",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (2).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_3',
-            name:"Pastel Painting 3",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (3).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_1',
-            name:"Pastel Painting 1",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_1',
-            name:"Pastel Painting 1",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_1',
-            name:"Pastel Painting 1",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_1',
-            name:"Pastel Painting 1",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_1',
-            name:"Pastel Painting 1",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (1).jpg",
-            desc:"Painting Desc"
-        },
-        {
-            id:'pastelP_1',
-            name:"Pastel Painting 1",
-            price:10.50,
-            instock:50,
-            type:"pastel",
-            imgSrc:"/images/Pastel_paint/pastelP (1).jpg",
-            desc:"Painting Desc"
-        },
-
+    'Past',
     ];
 export const newArrival = [
     {
@@ -262,7 +43,7 @@ export const newArrival = [
         price:10.50,
         instock:50,
         type:"Painting Type",
-        imgSrc:"/images/Oil_paint/Oil3.jpg",
+        imgSrc:oil3,
         desc:"Painting Desc"
     },
     {
@@ -271,7 +52,7 @@ export const newArrival = [
         price:10.50,
         instock:50,
         type:"Painting Type",
-        imgSrc:"/images/Oil_paint/Oil2.jpg",
+        imgSrc:oil2,
         desc:"Painting Desc"
     },
     {
@@ -280,7 +61,7 @@ export const newArrival = [
         price:10.50,
         instock:50,
         type:"Painting Type",
-        imgSrc:"/images/Oil_paint/Oil3.jpg",
+        imgSrc:oil3,
         desc:"Painting Desc"
     },
     {
@@ -289,7 +70,7 @@ export const newArrival = [
         price:10.50,
         instock:50,
         type:"Painting Type",
-        imgSrc:"/images/Oil_paint/Oil4.jpg",
+        imgSrc:oil4,
         desc:"Painting Desc"
     },    {
         id:4,
@@ -297,7 +78,7 @@ export const newArrival = [
         price:10.50,
         instock:50,
         type:"Painting Type",
-        imgSrc:"/images/Watercolor_paint/watercolor1.jpg",
+        imgSrc:water1,
         desc:"Painting Desc"
     },    {
         id:5,
@@ -305,7 +86,7 @@ export const newArrival = [
         price:10.50,
         instock:50,
         type:"Painting Type",
-        imgSrc:"/images/Watercolor_paint/watercolor2.jpg",
+        imgSrc:water2,
         desc:"Painting Desc"
     }
 ];
@@ -316,21 +97,21 @@ export const events = {
             id:0,
             date:"upcoming exhibition date",
             location:"exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh1.jpg",
+            imgSrc:exh1,
             status: 'Comming Soon',
         },
         {
             id:1,
             date:"upcoming exhibition date",
             location:"exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh2.jpg",
+            imgSrc:exh1,
             status: 'Comming Soon',
         },
         {
             id:2,
             date:"upcoming exhibition date",
             location:"exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh3.jpg",
+            imgSrc:exh1,
             status: 'Comming Soon',
         }
     ],
@@ -339,21 +120,21 @@ export const events = {
             id:0,
             date:"current exhibition date",
             location:"current exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh2.jpg",
+            imgSrc:exh2,
             status: 'Booking Open',
         },
         {
             id:1,
             date:"current exhibition date",
             location:"current exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh2.jpg",
+            imgSrc:exh2,
             status: 'Booking Open',
         },
         {
             id:2,
             date:"current exhibition date",
             location:"current exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh3.jpg",
+            imgSrc:exh2,
             status: 'Booking Open',
         }
     ],
@@ -362,21 +143,21 @@ export const events = {
             id:0,
             date:"past exhibition date",
             location:"current exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh3.jpg",
+            imgSrc:exh3,
             status: 'Closed',
         },
         {
             id:1,
             date:"past exhibition date",
             location:"current exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh2.jpg",
+            imgSrc:exh3,
             status: 'Closed',
         },
         {
             id:2,
             date:"past exhibition date",
             location:"current exhibition location",
-            imgSrc:"./images/Exhibition/Upcoming/exh3.jpg",
+            imgSrc:exh3,
             status: 'Closed',
         }
     ]
