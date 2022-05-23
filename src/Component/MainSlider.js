@@ -1,13 +1,13 @@
 import React from 'react'
 import Carousel from "react-bootstrap/Carousel";
-import {allPaintings} from '../Database/AllPaintingsDB'
+import {mainSliderPainting} from '../Database/AllPaintingsDB'
 
 export default function MainSlider() {
   return (
     <div className='MainSlider'>
     <div className='container-fluid'>
     <Carousel>
-      {allPaintings.map((p,index)=>{
+      {mainSliderPainting.map((p,index)=>{
         return <Carousel.Item key={index}>
         <img
           className="d-block w-100"

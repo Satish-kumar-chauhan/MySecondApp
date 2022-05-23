@@ -400,4 +400,43 @@ export const allPaintings = [
       "imgSrc": abstractP8,
       "desc": "Description AbstractP_8"
     }
-  ]
+  ];
+
+  export const mainSliderPainting = [
+    {
+      "id": "oilP_1",
+      "name": "Oil Painitng 1",
+      "price": 12000,
+      "inStock": 25,
+      "type": "oil",
+      "imgSrc": oilP1,
+      "desc": "Description OilP_1"
+    },
+    {
+      "id": "oilP_2",
+      "name": "Oil Painitng 2",
+      "price": 12000,
+      "inStock": 25,
+      "type": "oil",
+      "imgSrc": oilP2,
+      "desc": "Description OilP_2"
+    },
+    {
+      "id": "oilP_3",
+      "name": "Oil Painitng 3",
+      "price": 12000,
+      "inStock": 25,
+      "type": "oil",
+      "imgSrc": oilP3,
+      "desc": "Description OilP_3"
+    },
+    {
+      "id": "oilP_4",
+      "name": "Oil Painitng 4",
+      "price": 12000,
+      "inStock": 25,
+      "type": "oil",
+      "imgSrc": oilP4,
+      "desc": "Description OilP_4"
+    }
+  ];

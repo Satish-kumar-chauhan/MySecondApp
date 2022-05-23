@@ -1,7 +1,7 @@
 import './App.css';
 import './style.scss';
 import Header from './Component/Header';
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import {HashRouter,Route,Routes} from 'react-router-dom'
 import Home from './Pages/Home';
 import PageNotFound from './PageNotFound';
 import About from './Pages/About';
@@ -22,7 +22,7 @@ import ShoppingCart from './Pages/ShoppingCart';
 import Wishlist from './Pages/Wishlist';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <Header />
 <Routes>
@@ -39,7 +39,7 @@ function App() {
 </Routes>
 <Footer />
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
