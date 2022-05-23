@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MySecondApp/static/css/main.f7464468.css",
-    "main.js": "/MySecondApp/static/js/main.f5d925e2.js",
+    "main.js": "/MySecondApp/static/js/main.2c3b4544.js",
     "static/js/787.b0e29ad6.chunk.js": "/MySecondApp/static/js/787.b0e29ad6.chunk.js",
     "static/media/oilP (1).jpg": "/MySecondApp/static/media/oilP (1).14c04645a16862f587eb.jpg",
     "static/media/waterP (7).jpg": "/MySecondApp/static/media/waterP (7).167f79f45d1551ddf64f.jpg",
@@ -60,11 +60,11 @@
     "static/media/abstractP (7).webp": "/MySecondApp/static/media/abstractP (7).cb1dcf5b4893c4a40d09.webp",
     "index.html": "/MySecondApp/index.html",
     "main.f7464468.css.map": "/MySecondApp/static/css/main.f7464468.css.map",
-    "main.f5d925e2.js.map": "/MySecondApp/static/js/main.f5d925e2.js.map",
+    "main.2c3b4544.js.map": "/MySecondApp/static/js/main.2c3b4544.js.map",
     "787.b0e29ad6.chunk.js.map": "/MySecondApp/static/js/787.b0e29ad6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7464468.css",
-    "static/js/main.f5d925e2.js"
+    "static/js/main.2c3b4544.js"
   ]
 }
